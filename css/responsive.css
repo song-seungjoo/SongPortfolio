@@ -1,0 +1,676 @@
+@charset "utf-8";
+
+@media screen and (max-width:1440px) {
+    html {
+        font-size: 13px;
+    }
+
+    .wrap .open .folder img {
+        width: 150px;
+    }
+
+    .in {
+        max-width: 1650px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 3.75px 11.25px 0px;
+    }
+
+    .w25 {
+        width: 18.75px;
+        height: 18.75px;
+        margin-right: 7.5px;
+    }
+
+    .w30 {
+        width: 22.5px;
+        height: 22.5px;
+        margin-right: 7.5px;
+    }
+
+    .w40 {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+    }
+
+    .w44 {
+        width: 33.75px;
+        height: 33.75px;
+        margin-right: 15px;
+    }
+
+    .w80 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .w720 {
+        width: 540px;
+    }
+
+    header .button {
+        padding: 22.5px 0 0 22.5px;
+    }
+
+    header .button>* {
+        width: 15px;
+        height: 15px;
+        margin-right: 7.5px;
+    }
+
+    header .button .one {
+        border: 1px solid #FF453A;
+    }
+
+    header .button .two {
+        border: 1px solid #FF9F0A;
+    }
+
+    .nav {
+        margin: 22.5px;
+    }
+
+    .nav-item li {
+        margin: 11.25px 0 0 22.5px;
+    }
+
+    main::-webkit-scrollbar {
+        width: 11.25px;
+    }
+
+    main::-webkit-scrollbar-thumb {
+        border-radius: 11.25px;
+    }
+
+    main #top {
+        border-bottom: 0.75px solid #424242;
+    }
+
+    .profile img {
+        width: 195px;
+        height: 195px;
+        border-radius: 97.5px;
+    }
+
+    .profile span {
+        width: 0.75px;
+        height: 120px;
+        margin: 0 30px 0 60px;
+    }
+
+    .profile h1 {
+        line-height: 41.25px;
+    }
+
+    .Information {
+        margin-bottom: 45px;
+    }
+
+    .menu-text {
+        width: 525px;
+    }
+
+    .infoitem {
+        border-radius: 15px;
+    }
+
+    .infoitem li {
+        border-bottom: 0.75px solid #696969;
+    }
+
+    .item {
+        border-radius: 15px;
+    }
+
+    .item li {
+        border-bottom: 0.75px solid #696969;
+    }
+
+    .skill-item {
+        max-width: 525px;
+    }
+
+    .pmenu-text {
+        border-top: 0.75px solid #696969;
+    }
+
+    .video-menu {
+        border-radius: 15px;
+        margin-bottom: 22.5px;
+    }
+
+    .video-menu>li {
+        border-radius: 15px;
+    }
+
+    .video-menu li span {
+        border-radius: 22.5px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 9.23px;
+    }
+
+    .wrap .open .folder img {
+        width: 106px;
+    }
+
+    .in {
+        max-width: 1166px;
+        border-radius: 10.6px;
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 2.65px 7.95px 0px;
+        top: 4% !important;
+    }
+
+    .w25 {
+        width: 13.25px;
+        height: 13.25px;
+        margin-right: 5.3px;
+    }
+
+    .w30 {
+        width: 15.9px;
+        height: 15.9px;
+        margin-right: 5.3px;
+    }
+
+    .w40 {
+        width: 21.2px;
+        height: 21.2px;
+        margin-right: 10.6px;
+    }
+
+    .w44 {
+        width: 23.85px;
+        height: 23.85px;
+        margin-right: 10.6px;
+    }
+
+    .w80 {
+        width: 42.4px;
+        height: 42.4px;
+    }
+
+    .w720 {
+        width: 381.6px;
+    }
+
+    header .button {
+        padding: 15.9px 0 0 15.9px;
+    }
+
+    header .button>* {
+        width: 10.6px;
+        height: 10.6px;
+        margin-right: 5.3px;
+    }
+
+    header .button .one {
+        border: 1px solid #FF453A;
+    }
+
+    header .button .two {
+        border: 1px solid #FF9F0A;
+    }
+
+    .nav {
+        margin: 15.9px;
+    }
+
+    .nav-item li {
+        margin: 7.95px 0 0 15.9px;
+    }
+
+    main::-webkit-scrollbar {
+        width: 7.95px;
+    }
+
+    main::-webkit-scrollbar-thumb {
+        border-radius: 7.95px;
+    }
+
+    main #top {
+        border-bottom: 0.53px solid #424242;
+    }
+
+    .profile img {
+        width: 137.8px;
+        height: 137.8px;
+        border-radius: 69px;
+    }
+
+    .profile span {
+        width: 0.53px;
+        height: 84.8px;
+        margin: 0 21.2px 0 42.4px;
+    }
+
+    .profile h1 {
+        line-height: 29.15px;
+    }
+
+    .Information {
+        margin-bottom: 31.8px;
+    }
+
+    .menu-text {
+        width: 371px;
+    }
+
+    .infoitem {
+        border-radius: 10.6px;
+    }
+
+    .infoitem li {
+        border-bottom: 0.53px solid #696969;
+    }
+
+    .item {
+        border-radius: 10.6px;
+    }
+
+    .item li {
+        border-bottom: 0.53px solid #696969;
+    }
+
+    .skill-item {
+        max-width: 371px;
+    }
+
+    .pmenu-text {
+        border-top: 0.53px solid #696969;
+    }
+
+    .video-menu {
+        border-radius: 10.6px;
+        margin-bottom: 15.9px;
+    }
+
+    .video-menu>li {
+        border-radius: 10.6px;
+    }
+
+    .video-menu li span {
+        border-radius: 15.9px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 6.93px;
+    }
+
+    .wrap .open .folder img {
+        width: 80px;
+    }
+
+    .in {
+        max-width: 880px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 6px 0px;
+        top: 3% !important;
+    }
+
+    .w25 {
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+    }
+
+    .w30 {
+        width: 12px;
+        height: 12px;
+        margin-right: 4px;
+    }
+
+    .w40 {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+
+    .w44 {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+    }
+
+    .w80 {
+        width: 32px;
+        height: 32px;
+    }
+
+    .w720 {
+        width: 288px;
+    }
+
+    header .button {
+        padding: 12px 0 0 12px;
+    }
+
+    header .button>* {
+        width: 8px;
+        height: 8px;
+        margin-right: 4px;
+    }
+
+    header .button .one {
+        border: 1px solid #FF453A;
+    }
+
+    header .button .two {
+        border: 1px solid #FF9F0A;
+    }
+
+    .nav {
+        margin: 12px;
+    }
+
+    .nav-item li {
+        margin: 6px 0 0 12px;
+    }
+
+    main::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    main::-webkit-scrollbar-thumb {
+        border-radius: 6px;
+    }
+
+    main #top {
+        border-bottom: 0.4px solid #424242;
+    }
+
+    .profile img {
+        width: 104px;
+        height: 104px;
+        border-radius: 52px;
+    }
+
+    .profile span {
+        width: 0.4px;
+        height: 64px;
+        margin: 0 16px 0 32px;
+    }
+
+    .profile h1 {
+        line-height: 22px;
+    }
+
+    .Information {
+        margin-bottom: 24px;
+    }
+
+    .menu-text {
+        width: 280px;
+    }
+
+    .infoitem {
+        border-radius: 8px;
+    }
+
+    .infoitem li {
+        border-bottom: 0.4px solid #696969;
+    }
+
+    .item {
+        border-radius: 8px;
+    }
+
+    .item li {
+        border-bottom: 0.4px solid #696969;
+    }
+
+    .skill-item {
+        max-width: 280px;
+    }
+
+    .pmenu-text {
+        border-top: 0.4px solid #696969;
+    }
+
+    .video-menu {
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .video-menu>li {
+        border-radius: 8px;
+    }
+
+    .video-menu li span {
+        border-radius: 12px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    html {
+        font-size: 8px;
+    }
+
+    .wrap>span {
+        display: none;
+    }
+
+    .wrap {
+        position: relative;
+    }
+
+    .in {
+        width: 100% !important;
+        height: 100%;
+        flex-direction: column !important;
+        display: block;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+        position: absolute;
+        top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        align-items: center;
+        z-index: 99;
+        width: 20% !important;
+        height: 5% !important;
+        display: flex;
+    }
+
+    header .button {
+        padding: 0 !important;
+        margin-left: 10px;
+    }
+
+    header .button>* {
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    main #top {
+        width: 100%;
+        height: 5%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(27, 27, 27, 0.7);
+    }
+
+    main #top button {
+        margin: 0;
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        padding-top: 3%;
+    }
+
+    main::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .profile img {
+        border-radius: 150px;
+    }
+
+    .mid {
+        display: block;
+        overflow-y: none;
+    }
+
+    .menu-text {
+        margin: 0 auto;
+        width: 90% !important;
+    }
+
+    .pmenu-text {
+        width: 85%;
+        margin: 6% 7.5%;
+        padding: 6% 0 3%;
+    }
+
+    .infoitem,
+    .item,
+    .skill-item {
+        margin: 0 auto;
+        width: 85%;
+        border-radius: 10px;
+        max-width: none;
+    }
+
+    .w25 {
+        width: 12px;
+        height: 12px;
+        margin-right: 6px;
+    }
+
+    .w40 {
+        width: 17px;
+        height: 17px;
+    }
+
+    .w44 {
+        width: 20px;
+        height: 20px;
+        margin-right: 9px;
+    }
+
+    .wrap .open .folder img {
+        width: 44px;
+    }
+
+    .profile h1 {
+        line-height: 18.15px;
+    }
+
+    .profile img:hover {
+        transform: none;
+    }
+
+    .Information {
+        margin: 0;
+    }
+
+    .Information .item li>h3 {
+        line-height: 18.4px;
+    }
+
+    .menu-text {
+        padding: 10.96px 0;
+        line-height: 18.4px;
+        width: 350px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        /* position: sticky; */
+        top: 0;
+        left: 0;
+        /* margin: 0 auto; */
+    }
+
+    #portfolio .menu-text {
+        width: 90%;
+        margin: 15px auto 0;
+    }
+
+    .item li {
+        padding: 13.358px 0;
+        margin: 0 13.358px;
+    }
+
+
+    .w80 {
+        width: 33.55px;
+    }
+
+    .w720 {
+        width: 350px;
+    }
+
+
+    header .button {
+        padding: 7.029px 0 0 7.029px;
+    }
+
+    header .button>* {
+        width: 4.389px;
+        height: 4.389px;
+        margin-right: 2.343px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .profile {
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .profile h1 {
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .profile>span {
+        display: none;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+        margin: 30px 0 10px 0;
+        /* transform: scale(2); */
+    }
+
+    .video-menu {
+        display: block;
+        border-radius: 10px;
+        padding: 4% 0 0;
+    }
+
+    .video-menu>li {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .video-item li:last-child p {
+        margin-bottom: 0;
+    }
+
+
+}
